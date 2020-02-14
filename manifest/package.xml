@@ -9,7 +9,18 @@
         <members>TMS_WrapperClass</members>
         <name>ApexClass</name>
     </types>
-  
+     <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <members>HelloWorldApp</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members></members>
+        <name>tMS_ComponentFC</name>
+    </types>
    
     <version>47.0</version>
 </Package>
