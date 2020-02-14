@@ -1,6 +1,0 @@
-TMS_WrapperClass.TicketWrapper record = (TMS_WrapperClass.TicketWrapper) 
-    JSOn.deserialize('{"record" : {"assigned_User__c": "user", "issue_Type__c": "Hardware", '+
-                    ' "status__c": "New", "ticket_heading__c": "sample heading", "ticketDetails__c": "details"'+
-                     '}}',TMS_WrapperClass.TicketWrapper.class);
-                     
-System.debug(record.record);
