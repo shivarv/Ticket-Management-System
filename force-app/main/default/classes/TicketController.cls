@@ -1,4 +1,4 @@
-public with sharing class TicketController implements Iservice{
+public with sharing class TicketController implements IService{
     public TicketController() {
 
     }

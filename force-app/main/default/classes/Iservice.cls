@@ -1,3 +1,3 @@
-public interface Iservice {
+public interface IService {
     void execute(ProcessRequestInput input);
 }
