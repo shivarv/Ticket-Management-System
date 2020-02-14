@@ -1,4 +1,5 @@
 public class IServiceController {
+    @AuraEnabled(cacheable = true)
     public static void process(ProcessRequestInput input) {
         String className;
         Type classTypeInst;
@@ -16,7 +17,7 @@ public class IServiceController {
             System.debug(e.getStackTraceString());
         }
     }
-
+    @AuraEnabled(cacheable = true)
     public static string processWithReturn(ProcessRequestInput input) {
         ProcessRequestOutput outputObject = null;
         String className;
