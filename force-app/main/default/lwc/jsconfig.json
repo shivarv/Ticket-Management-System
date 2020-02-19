@@ -38,9 +38,6 @@
             "c/sharingJsCode": [
                 "sharingJsCode/sharingJsCode.js"
             ],
-            "c/todoApp": [
-                "todoApp/todoApp.js"
-            ],
             "c/createDataTableLDS": [
                 "createDataTableLDS/createDataTableLDS.js"
             ],
@@ -88,6 +85,33 @@
             ],
             "c/videoPlayer": [
                 "videoPlayer/videoPlayer.js"
+            ],
+            "c/TMS_HomePage": [
+                "TMS_HomePage/TMS_HomePage.js"
+            ],
+            "c/tMS_HomePage": [
+                "tMS_HomePage/tMS_HomePage.js"
+            ],
+            "c/TMS_PageHeader": [
+                "TMS_PageHeader/TMS_PageHeader.js"
+            ],
+            "c/tMS_PageHeader": [
+                "tMS_PageHeader/tMS_PageHeader.js"
+            ],
+            "c/TMS_SideBar": [
+                "TMS_SideBar/TMS_SideBar.js"
+            ],
+            "c/tMS_SideBar": [
+                "tMS_SideBar/tMS_SideBar.js"
+            ],
+            "c/tMS_ContentPage": [
+                "tMS_ContentPage/tMS_ContentPage.js"
+            ],
+            "c/TMS_ProfilePage": [
+                "TMS_ProfilePage/TMS_ProfilePage.js"
+            ],
+            "c/tMS_ProfilePage": [
+                "tMS_ProfilePage/tMS_ProfilePage.js"
             ]
         },
         "experimentalDecorators": true

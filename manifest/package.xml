@@ -19,14 +19,19 @@
     </types>
     <types>
         <members>tMS_ComponentFC</members>
+        <members>tMS_ContentPage</members>
+
+        <members>tMS_HomePage</members>
+        <members>tMS_PageHeader</members>
+        <members>tMS_ProfilePage</members>
+        <members>tMS_SideBar</members>
+
         <name>LightningComponentBundle</name>
     </types>
-    
     <types>
         <members>TMS_Comment__c</members>
         <members>TMS_Ticket__c</members>
         <name>CustomObject</name>
     </types>
-   
     <version>47.0</version>
 </Package>
