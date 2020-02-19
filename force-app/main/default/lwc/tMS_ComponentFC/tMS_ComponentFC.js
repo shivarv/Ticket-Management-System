@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 /* eslint-disable no-unused-vars */
 import { LightningElement } from 'lwc';
-import executeApex from '@salesforce/apex/IServiceController.execute';
-import executeApexWithReturn from '@salesforce/apex/IServiceController.execute';
+import executeApex from '@salesforce/apex/IServiceController.process';
+import executeApexWithReturn from '@salesforce/apex/IServiceController.processWithReturn';
 
 export default class TMS_ComponentFC extends LightningElement {
    
