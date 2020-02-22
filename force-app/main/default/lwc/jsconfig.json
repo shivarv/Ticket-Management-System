@@ -2,116 +2,23 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "c/TMS_MarkupComponent": [
-                "TMS_MarkupComponent/TMS_MarkupComponent.js"
-            ],
             "c/tMS_ComponentFC": [
                 "tMS_ComponentFC/tMS_ComponentFC.js"
-            ],
-            "c/TMS_ComponentFC": [
-                "TMS_ComponentFC/TMS_ComponentFC.js"
-            ],
-            "c/amzon_RegisterUserCmp": [
-                "amzon_RegisterUserCmp/amzon_RegisterUserCmp.js"
-            ],
-            "c/amzon_ErrorHandler": [
-                "amzon_ErrorHandler/amzon_ErrorHandler.js"
-            ],
-            "c/propertiesLWC": [
-                "propertiesLWC/propertiesLWC.js"
-            ],
-            "c/calcLWC": [
-                "calcLWC/calcLWC.js"
-            ],
-            "c/methodCaller": [
-                "methodCaller/methodCaller.js"
-            ],
-            "c/apexMethodEg": [
-                "apexMethodEg/apexMethodEg.js"
-            ],
-            "c/standardEventsInLWC": [
-                "standardEventsInLWC/standardEventsInLWC.js"
-            ],
-            "c/createNewContactLDS": [
-                "createNewContactLDS/createNewContactLDS.js"
-            ],
-            "c/sharingJsCode": [
-                "sharingJsCode/sharingJsCode.js"
-            ],
-            "c/createDataTableLDS": [
-                "createDataTableLDS/createDataTableLDS.js"
-            ],
-            "c/firstLWC": [
-                "firstLWC/firstLWC.js"
-            ],
-            "c/eventChild": [
-                "eventChild/eventChild.js"
-            ],
-            "c/eventPropagationEg": [
-                "eventPropagationEg/eventPropagationEg.js"
-            ],
-            "c/editContactLDS": [
-                "editContactLDS/editContactLDS.js"
-            ],
-            "c/listContactsEg": [
-                "listContactsEg/listContactsEg.js"
-            ],
-            "c/child": [
-                "child/child.js"
-            ],
-            "c/checkBoxEg": [
-                "checkBoxEg/checkBoxEg.js"
-            ],
-            "c/containerDemo": [
-                "containerDemo/containerDemo.js"
-            ],
-            "c/container": [
-                "container/container.js"
-            ],
-            "c/jsIterationLWC": [
-                "jsIterationLWC/jsIterationLWC.js"
-            ],
-            "c/todoItem": [
-                "todoItem/todoItem.js"
-            ],
-            "c/utils": [
-                "utils/utils.js"
-            ],
-            "c/sudoku_StartPage": [
-                "sudoku_StartPage/sudoku_StartPage.js"
-            ],
-            "c/viewRecordLDS": [
-                "viewRecordLDS/viewRecordLDS.js"
-            ],
-            "c/videoPlayer": [
-                "videoPlayer/videoPlayer.js"
-            ],
-            "c/TMS_HomePage": [
-                "TMS_HomePage/TMS_HomePage.js"
-            ],
-            "c/tMS_HomePage": [
-                "tMS_HomePage/tMS_HomePage.js"
-            ],
-            "c/TMS_PageHeader": [
-                "TMS_PageHeader/TMS_PageHeader.js"
-            ],
-            "c/tMS_PageHeader": [
-                "tMS_PageHeader/tMS_PageHeader.js"
-            ],
-            "c/TMS_SideBar": [
-                "TMS_SideBar/TMS_SideBar.js"
-            ],
-            "c/tMS_SideBar": [
-                "tMS_SideBar/tMS_SideBar.js"
             ],
             "c/tMS_ContentPage": [
                 "tMS_ContentPage/tMS_ContentPage.js"
             ],
-            "c/TMS_ProfilePage": [
-                "TMS_ProfilePage/TMS_ProfilePage.js"
+            "c/tMS_HomePage": [
+                "tMS_HomePage/tMS_HomePage.js"
+            ],
+            "c/tMS_PageHeader": [
+                "tMS_PageHeader/tMS_PageHeader.js"
             ],
             "c/tMS_ProfilePage": [
                 "tMS_ProfilePage/tMS_ProfilePage.js"
+            ],
+            "c/tMS_SideBar": [
+                "tMS_SideBar/tMS_SideBar.js"
             ]
         },
         "experimentalDecorators": true
