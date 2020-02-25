@@ -28,9 +28,9 @@
         <members>tMS_ProfilePage</members>
         <members>tMS_SideBar</members>
         <members>tMS_UserHeaderDisplay</members>
-        <members>tMS_UserProfileSetting</members>
         <members>tMS_ListOfMenus</members>
-        <members>tMS_ProfilePage_Details</members>
+        <members>tMS_PageHeader_Notification</members>
+        <members>tMS_PageHeader_Search</members>
 
         <name>LightningComponentBundle</name>
     </types>

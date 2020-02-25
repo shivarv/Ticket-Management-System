@@ -28,6 +28,6 @@
 
 -->
 <c:tMS_ListOfMenus></c:tMS_ListOfMenus>
-<c:tMS_ProfilePage_Details></c:tMS_ProfilePage_Details>
+<c:tMS_ProfilePage></c:tMS_ProfilePage>
 
 </aura:application>

@@ -35,11 +35,14 @@
             "c/tMS_UserHeaderDisplay": [
                 "tMS_UserHeaderDisplay/tMS_UserHeaderDisplay.js"
             ],
-            "c/tMS_UserProfileSetting": [
-                "tMS_UserProfileSetting/tMS_UserProfileSetting.js"
-            ],
             "c/tMS_ProfilePage_Details": [
                 "tMS_ProfilePage_Details/tMS_ProfilePage_Details.js"
+            ],
+            "c/tMS_PageHeader_Search": [
+                "tMS_PageHeader_Search/tMS_PageHeader_Search.js"
+            ],
+            "c/tMS_PageHeader_Notification": [
+                "tMS_PageHeader_Notification/tMS_PageHeader_Notification.js"
             ]
         },
         "experimentalDecorators": true

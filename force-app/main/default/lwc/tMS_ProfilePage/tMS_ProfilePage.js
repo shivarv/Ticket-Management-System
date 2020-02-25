@@ -1,10 +1,10 @@
-import TMS_ComponentFC from 'c/tMS_ComponentFC';
 import { LightningElement, api } from 'lwc';
 
-export default class TMS_ProfilePage extends TMS_ComponentFC {
+export default class TMS_ProfilePage extends LightningElement {
     @api userDetails;
 
     constructor() {
+        super();
         this.userDetails = {
             fullName: 'Shiva RV',
             email: 'shivarv@gmail.com',
