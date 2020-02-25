@@ -22,8 +22,6 @@
         <members>tMS_ContentPage</members>
         <members>tMS_HomePage</members>
         <members>tMS_PageHeader</members>
-        <members>tMS_ProfilePage</members>
-        <members>tMS_SideBar</members>
         <!-- created on 25-02-2020 - count 8 -->
         <members>tMS_SideBar</members>
         <members>tMS_HeaderNotification</members>
