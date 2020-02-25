@@ -37,6 +37,9 @@
             ],
             "c/tMS_UserProfileSetting": [
                 "tMS_UserProfileSetting/tMS_UserProfileSetting.js"
+            ],
+            "c/tMS_ProfilePage_Details": [
+                "tMS_ProfilePage_Details/tMS_ProfilePage_Details.js"
             ]
         },
         "experimentalDecorators": true

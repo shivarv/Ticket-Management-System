@@ -1,29 +1,21 @@
 <template>
-
-<div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
-        <button class="slds-button slds-button_icon slds-button_icon-border-filled" aria-haspopup="true"
-            title="Show More">
-            <svg class="slds-button__icon" aria-hidden="true">
-                New <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
-            </svg>
-            <span class="slds-assistive-text">Show More</span>
+    <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open">
+        <button class="slds-button slds-button_icon slds-button_icon-border-filled" aria-haspopup="true" onclick={expandMenus}>New
         </button>
-        <div class="slds-dropdown slds-dropdown_left slds-dropdown_small">
-            <ul class="slds-dropdown__list" role="menu" aria-label="Show More">
-                <template for:each={menuItemsList} for:item='item'>
-                    <li class="slds-dropdown__item slds-is-selected" key={item} role="presentation">
-                        <a aria-checked="true" href="javascript:void(0);" role="menuitemcheckbox" tabindex="0">
-                            <span class="slds-truncate" title="Menu Item One">
-                                <svg class="slds-icon slds-icon_selected slds-icon_x-small slds-icon-text-default slds-m-right_x-small"
-                                    aria-hidden="true">
-                                    <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
-                                </svg>{item}
-                            </span>
-                        </a>
-                    </li>
-                </template>
-            </ul>
-        </div>
+        <template if:true={isVisible}>
+            <div class="slds-dropdown slds-dropdown_left slds-dropdown_small">
+                <ul class="slds-dropdown__list" role="menu" aria-label="Show More">
+                    <template for:each={menuItemsList} for:item='item'>
+                        <li class="slds-dropdown__item slds-is-selected" key={item} role="presentation">
+                            <a aria-checked="true" href="javascript:void(0);" role="menuitemcheckbox" tabindex="0">
+                                <span class="slds-truncate" title="Menu Item One">
+                                {item}
+                                </span>
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </template>
     </div>
-</div>
 </template>
