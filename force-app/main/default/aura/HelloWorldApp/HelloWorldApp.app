@@ -26,5 +26,5 @@
 
 -->
 
-<c:LightningConcurrentIssue></c:LightningConcurrentIssue>
+<c:LightningConcurrentIssue> </c:LightningConcurrentIssue>
 </aura:application>
