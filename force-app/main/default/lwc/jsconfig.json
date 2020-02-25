@@ -19,6 +19,24 @@
             ],
             "c/tMS_SideBar": [
                 "tMS_SideBar/tMS_SideBar.js"
+            ],
+            "c/tMS_HeaderPalletItems": [
+                "tMS_HeaderPalletItems/tMS_HeaderPalletItems.js"
+            ],
+            "c/tMS_ListOfMenus": [
+                "tMS_ListOfMenus/tMS_ListOfMenus.js"
+            ],
+            "c/tMS_HeaderSearch": [
+                "tMS_HeaderSearch/tMS_HeaderSearch.js"
+            ],
+            "c/tMS_HeaderNotification": [
+                "tMS_HeaderNotification/tMS_HeaderNotification.js"
+            ],
+            "c/tMS_UserHeaderDisplay": [
+                "tMS_UserHeaderDisplay/tMS_UserHeaderDisplay.js"
+            ],
+            "c/tMS_UserProfileSetting": [
+                "tMS_UserProfileSetting/tMS_UserProfileSetting.js"
             ]
         },
         "experimentalDecorators": true
