@@ -23,8 +23,12 @@
     <c:AsyncAuraMethodParent></c:AsyncAuraMethodParent>
 
     <c:sudoku_StartPage></c:sudoku_StartPage>
+<c:LightningConcurrentIssue></c:LightningConcurrentIssue>
+
+
+<c:tMS_PageHeader></c:tMS_PageHeader>
 
 -->
+<c:tMS_HomePage></c:tMS_HomePage>
 
-<c:LightningConcurrentIssue></c:LightningConcurrentIssue>
 </aura:application>
