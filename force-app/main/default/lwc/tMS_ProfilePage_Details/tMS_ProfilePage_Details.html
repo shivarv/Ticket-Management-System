@@ -1,0 +1,39 @@
+<template>
+    <div class="slds-grid slds-wrap slds-grid--pull-padded">
+        <div class="slds-col--padded slds-size--1-of-1">
+            <span>Full Name : </span>
+            <span>{userDetails.fullName}</span>
+            <span></span>
+        </div>
+        <div class="slds-col--padded slds-size--1-of-1">
+            <span>Email : </span>
+            <span>{userDetails.email}</span>
+            <span></span>
+        </div>
+        <div class="slds-col--padded slds-size--1-of-1">
+            <span>Mobile : </span>
+            <span>{userDetails.mobile}</span>
+            <span></span>
+        </div>
+        <div class="slds-col--padded slds-size--1-of-1">
+            <span>Support : </span>
+            <span>{userDetails.jobTitle}</span>
+            <span></span>
+        </div>
+    </div>
+    
+    
+     
+    <div class="slds-form-element">
+        <label class="slds-form-element__label" for="text-input-id-1">Input Label</label>
+        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left">
+            <lightning-icon
+                class="slds-icon slds-input__icon slds-input__icon_left slds-icon-text-default" 
+                icon-name="utility:edit"
+                size="x-small"
+                alternative-text="Indicates approval">
+            </lightning-icon>
+            <input id="text-input-id-1" class="slds-input" type="text" value="" > </input>
+        </div> 
+    </div>
+</template>

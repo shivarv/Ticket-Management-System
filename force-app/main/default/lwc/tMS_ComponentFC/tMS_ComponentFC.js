@@ -20,4 +20,18 @@ export default class TMS_ComponentFC extends LightningElement {
             })
         this.setDefaultValues(); 
     }
+
+    callApexMethod(inputDataObject, className) {
+        console.log(' call apex method ');
+        let requestParameters = {inputData : inputDataObject, className : className};
+        let inputData = JSON.stringify(requestParameters); 
+        executeApexWithReturn(inputData).then(data => {
+            console.log("data "+ data);
+            })
+            .catch(error => {
+                console.log(error);
+            })
+        this.setDefaultValues(); 
+
+    }
 }
