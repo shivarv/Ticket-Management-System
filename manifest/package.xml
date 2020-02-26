@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
     <types>
         <members>IService</members>
         <members>IServiceController</members>
@@ -38,6 +39,10 @@
         <members>TMS_Comment__c</members>
         <members>TMS_Ticket__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>tMS_Files</members>        
+        <name>StaticResource</name>
     </types>
     <version>47.0</version>
 </Package>
