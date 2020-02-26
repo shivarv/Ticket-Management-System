@@ -43,6 +43,12 @@
             ],
             "c/tMS_PageHeader_Notification": [
                 "tMS_PageHeader_Notification/tMS_PageHeader_Notification.js"
+            ],
+            "c/tMS_TicketList": [
+                "tMS_TicketList/tMS_TicketList.js"
+            ],
+            "c/tMS_TicketPage": [
+                "tMS_TicketPage/tMS_TicketPage.js"
             ]
         },
         "experimentalDecorators": true

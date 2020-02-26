@@ -21,18 +21,21 @@
     <types>
         <members>tMS_ComponentFC</members>
         <members>tMS_ContentPage</members>
-        <members>tMS_HomePage</members>
-        <members>tMS_PageHeader</members>
-        <!-- created on 25-02-2020 - count 8 -->
-        <members>tMS_SideBar</members>
         <members>tMS_HeaderNotification</members>
-        <members>tMS_ProfilePage</members>
-        <members>tMS_SideBar</members>
-        <members>tMS_UserHeaderDisplay</members>
+        <members>tMS_HeaderPalletItems</members>
+        <members>tMS_HeaderSearch</members>
+        <members>tMS_HomePage</members>
         <members>tMS_ListOfMenus</members>
+        <members>tMS_PageHeader</members>
         <members>tMS_PageHeader_Notification</members>
         <members>tMS_PageHeader_Search</members>
-
+        <members>tMS_ProfilePage</members>
+        <members>tMS_ProfilePage_Details</members>
+        <members>tMS_SideBar</members>
+        <members>tMS_SideBar</members>
+        <members>tMS_TicketList</members>
+        <members>tMS_Ticketpage</members>
+        <members>tMS_UserHeaderDisplay</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
