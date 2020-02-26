@@ -25,9 +25,10 @@
     <c:sudoku_StartPage></c:sudoku_StartPage>
 <c:LightningConcurrentIssue> </c:LightningConcurrentIssue>
 <c:tMS_HomePage></c:tMS_HomePage>
-
--->
+<c:tMS_SideBar></c:tMS_SideBar>
 <c:tMS_ListOfMenus></c:tMS_ListOfMenus>
 <c:tMS_ProfilePage></c:tMS_ProfilePage>
+-->
 
+<c:tMS_HomePage></c:tMS_HomePage>
 </aura:application>

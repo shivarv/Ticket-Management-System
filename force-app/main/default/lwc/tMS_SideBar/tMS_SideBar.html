@@ -1,3 +1,17 @@
 <template>
+    <div class="slds-vertical-tabs">
+        <ul class="slds-vertical-tabs__nav" role="tablist" aria-orientation="vertical">
+            <template for:each={menuItemsList} for:item='item' for:index="index">
+                <li class="slds-vertical-tabs__nav-item slds-is-active" title="Tab 1"  key={item} role="presentation">
+                    <a class="slds-vertical-tabs__link" href="javascript:void(0)" role="tab" tabindex="0" aria-selected="true" aria-controls="slds-vertical-tabs-0" >
+                        <span class="slds-vertical-tabs__left-icon"></span>
+                        <span class="slds-truncate" title="Tab 1">{item}</span>
+                        <span class="slds-vertical-tabs__right-icon"></span>
+                    </a>
+                </li>
+          </template>
+        </ul>
+    </div>
     
 </template>
+
