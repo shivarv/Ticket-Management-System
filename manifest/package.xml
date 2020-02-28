@@ -10,10 +10,12 @@
         <members>TMS_WrapperClass</members>
         <name>ApexClass</name>
     </types>
-     <types>
+     
+    <types>
         <members>*</members>
         <name>ApexTestSuite</name>
     </types>
+
     <types>
         <members>HelloWorldApp</members>
         <name>AuraDefinitionBundle</name>
@@ -29,12 +31,14 @@
         <members>tMS_PageHeader</members>
         <members>tMS_PageHeader_Notification</members>
         <members>tMS_PageHeader_Search</members>
+        <members>tMS_PageHeader_SearchExpanded</members>
+        <members>tMS_PageHeader_Setting</members>
         <members>tMS_ProfilePage</members>
         <members>tMS_ProfilePage_Details</members>
         <members>tMS_SideBar</members>
         <members>tMS_SideBar</members>
         <members>tMS_TicketList</members>
-        <members>tMS_Ticketpage</members>
+        <members>tMS_TicketPage</members>
         <members>tMS_UserHeaderDisplay</members>
         <name>LightningComponentBundle</name>
     </types>
