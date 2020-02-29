@@ -32,9 +32,6 @@
             "c/tMS_HeaderNotification": [
                 "tMS_HeaderNotification/tMS_HeaderNotification.js"
             ],
-            "c/tMS_UserHeaderDisplay": [
-                "tMS_UserHeaderDisplay/tMS_UserHeaderDisplay.js"
-            ],
             "c/tMS_ProfilePage_Details": [
                 "tMS_ProfilePage_Details/tMS_ProfilePage_Details.js"
             ],
@@ -49,6 +46,9 @@
             ],
             "c/tMS_TicketPage": [
                 "tMS_TicketPage/tMS_TicketPage.js"
+            ],
+            "c/tMS_UserHeaderDisplay": [
+                "tMS_UserHeaderDisplay/tMS_UserHeaderDisplay.js"
             ]
         },
         "experimentalDecorators": true
