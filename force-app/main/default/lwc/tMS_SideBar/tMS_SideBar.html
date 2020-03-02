@@ -1,5 +1,5 @@
 <template>
-    <div class="slds-vertical-tabs">
+    <div class="slds-vertical-tabs" onclick={fireCloseExpandSearchBarEvent}>
         <ul class="slds-vertical-tabs__nav" role="tablist" aria-orientation="vertical">
             <template for:each={menuItemsList} for:item='item' for:index="index">
                 <li class="slds-vertical-tabs__nav-item slds-is-active" title="Tab 1"  key={item} role="presentation">

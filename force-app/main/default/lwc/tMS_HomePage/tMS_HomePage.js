@@ -12,8 +12,29 @@ export default class TMS_HomePage extends LightningElement  {
 
     onBlurOfSearchExpanded(event) {
         console.log('onBlurOfSearchExpanded '+ event + "  "+ this.isFullSearchOpen);
-        
-            this.isFullSearchOpen = false;
+        console.log(this.id + ' '+ event.target.id + ' '+ event.currentTarget.id);
+        console.log(JSON.stringify(this.id) + ' '+ JSON.stringify(event.target.id) + ' '+ JSON.stringify(event.currentTarget.id));
+
+        if(event.target === this ) {
+            console.log('event target  equal to this ');
+
+        }
+
+        if(event.target === event.currentTarget ) {
+            console.log('event target  equal to current target ');
+            
+        }
+
+        if(event.target !== this ) {
+            console.log('event target not equal to this ');
+
+        }
+
+        if(event.target !== event.currentTarget ) {
+            console.log('event target not equal to current target ');
+            
+        }
+        this.isFullSearchOpen = false;
         
     }
 
