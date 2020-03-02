@@ -8,4 +8,9 @@ export default class TMS_PageHeader extends LightningElement  {
         super();
         this.chosenTitle = 'Dashboard';
     }
+
+    handleSearchFocus(event) {
+        console.log('handleSearchFocus focus event handler - homepage'+ event.detail);
+        this.isFullSearchOpen = event.detail;
+    }
 }
