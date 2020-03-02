@@ -1,4 +1,4 @@
-import TMS_ComponentFC from 'c/tMS_ComponentFC';
-export default class TMS_SideBar extends TMS_ComponentFC {
+import { LightningElement } from 'lwc';
+export default class TMS_SideBar extends LightningElement  {
     menuItemsList = ['Dashboard', 'Tickets','Contacts','Solutions','Bots'];
 }
