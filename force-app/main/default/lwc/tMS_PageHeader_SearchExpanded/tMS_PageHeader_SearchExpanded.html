@@ -1,6 +1,6 @@
 <template>
     <div class="slds-box">
-        <lightning-input type="search" label="Search" onfocus={fireSearchFocus}> </lightning-input>
+        <lightning-input type="search" label="Search" onchange={handleTextInput}> </lightning-input>
         <div class="slds-grid slds-wrap">
         <template for:each={menuItemsList} for:item='item'>
             <div class="slds-col" key={item}>

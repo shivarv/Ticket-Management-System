@@ -25,14 +25,14 @@
             ],
             "c/tMS_PageHeader_Setting": [
                 "tMS_PageHeader_Setting/tMS_PageHeader_Setting.js"
-            ],            
+            ],
             "c/tMS_PageHeader": [
                 "tMS_PageHeader/tMS_PageHeader.js"
             ],
-          "c/tMS_PageHeader_Notification": [
-            "tMS_PageHeader_Notification/tMS_PageHeader_Notification.js"
-          ],
-          "c/tMS_ProfilePage_Details": [
+            "c/tMS_PageHeader_Notification": [
+                "tMS_PageHeader_Notification/tMS_PageHeader_Notification.js"
+            ],
+            "c/tMS_ProfilePage_Details": [
                 "tMS_ProfilePage_Details/tMS_ProfilePage_Details.js"
             ],
             "c/tMS_PageHeader_Search": [
@@ -55,6 +55,9 @@
             ],
             "c/tMS_UserHeaderDisplay": [
                 "tMS_UserHeaderDisplay/tMS_UserHeaderDisplay.js"
+            ],
+            "c/tMS_ContentPage_Ticket": [
+                "tMS_ContentPage_Ticket/tMS_ContentPage_Ticket.js"
             ]
         },
         "experimentalDecorators": true

@@ -5,7 +5,7 @@
             <span>{chosenTitle}</span>
         </div>
         <template if:true={isFullSearchOpen}>
-            <div class="slds-col slds-size_2-of-12" onclick={fireCloseFullSearchBarEvent}>
+            <div class="slds-col slds-size_2-of-12" onclick={stopClickPropagation}>
                 <span><c-t-m-s-_-page-header-_-search-expanded ></c-t-m-s-_-page-header-_-search-expanded></span>
             </div>
         </template>

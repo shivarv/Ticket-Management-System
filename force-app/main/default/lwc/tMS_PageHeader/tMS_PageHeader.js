@@ -20,6 +20,10 @@ export default class TMS_PageHeader extends LightningElement  {
         this.dispatchEvent(selectedEvent);
     }
 
+    stopClickPropagation(event) {
+        console.log('in handle on click');
+        event.stopPropagation();
+    }
 
     fireCloseFullSearchBarEvent(event) {
         console.log('in fire close event in side bar component ');
