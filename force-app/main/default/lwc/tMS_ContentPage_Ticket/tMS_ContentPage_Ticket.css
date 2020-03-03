@@ -1,4 +1,7 @@
 :host {
     display: block;
-    background-color: #fff;;
+    background-color: #fff;
+    box-shadow: 0 1px 0 0 #cfd7df;
+    width: 100%;
+    box-sizing: border-box;
 }
