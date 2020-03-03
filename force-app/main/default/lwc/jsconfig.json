@@ -58,6 +58,15 @@
             ],
             "c/tMS_ContentPage_Ticket": [
                 "tMS_ContentPage_Ticket/tMS_ContentPage_Ticket.js"
+            ],
+            "c/tMS_ContentPage_TicketHeader": [
+                "tMS_ContentPage_TicketHeader/tMS_ContentPage_TicketHeader.js"
+            ],
+            "c/tMS_ContentPage_TicketList": [
+                "tMS_ContentPage_TicketList/tMS_ContentPage_TicketList.js"
+            ],
+            "c/tMS_ContentPage_UserSearch": [
+                "tMS_ContentPage_UserSearch/tMS_ContentPage_UserSearch.js"
             ]
         },
         "experimentalDecorators": true
