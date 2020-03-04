@@ -5,3 +5,10 @@
     width: 100%;
     box-sizing: border-box;
 }
+
+span.bottom {
+    padding-right : 0.5rem;
+    position: absolute;
+    left: 2.8%;
+    top: 55%;
+}
