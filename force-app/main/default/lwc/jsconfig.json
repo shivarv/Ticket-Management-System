@@ -67,6 +67,21 @@
             ],
             "c/tMS_ContentPage_UserSearch": [
                 "tMS_ContentPage_UserSearch/tMS_ContentPage_UserSearch.js"
+            ],
+            "c/tMS_ContentPage_Advanced_Search": [
+                "tMS_ContentPage_Advanced_Search/tMS_ContentPage_Advanced_Search.js"
+            ],
+            "c/tMS_ContactList": [
+                "tMS_ContactList/tMS_ContactList.js"
+            ],
+            "c/tMS_Contact": [
+                "tMS_Contact/tMS_Contact.js"
+            ],
+            "c/tMS_CompanyList": [
+                "tMS_CompanyList/tMS_CompanyList.js"
+            ],
+            "c/tMS_GenericList": [
+                "tMS_GenericList/tMS_GenericList.js"
             ]
         },
         "experimentalDecorators": true
