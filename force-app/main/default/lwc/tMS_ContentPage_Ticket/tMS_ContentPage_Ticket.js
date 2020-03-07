@@ -8,6 +8,9 @@ export default class TMS_ContentPage_Ticket extends LightningElement {
     @api currentTicketUpdate;//created date, closed date, overdue date , created 13days ago.overdue by 11days, closed 5days ago
     @api ticketOrderNo;
 
+    get uniqueInput() {
+        return `input${this.ticketOrderNo}`;
+    }
     getFirstLetter() {
 
     }
