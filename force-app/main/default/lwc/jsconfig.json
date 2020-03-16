@@ -82,6 +82,21 @@
             ],
             "c/tMS_GenericList": [
                 "tMS_GenericList/tMS_GenericList.js"
+            ],
+            "c/tMS_Dashboard": [
+                "tMS_Dashboard/tMS_Dashboard.js"
+            ],
+            "c/tMS_Dashboard_Chart": [
+                "tMS_Dashboard_Chart/tMS_Dashboard_Chart.js"
+            ],
+            "c/tMS_Dashboard_Metrics": [
+                "tMS_Dashboard_Metrics/tMS_Dashboard_Metrics.js"
+            ],
+            "c/tMS_Dashboard_Unresolved_Ticket": [
+                "tMS_Dashboard_Unresolved_Ticket/tMS_Dashboard_Unresolved_Ticket.js"
+            ],
+            "c/tMS_Dashboard_TodoList": [
+                "tMS_Dashboard_TodoList/tMS_Dashboard_TodoList.js"
             ]
         },
         "experimentalDecorators": true
