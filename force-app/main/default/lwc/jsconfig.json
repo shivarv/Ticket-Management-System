@@ -97,6 +97,15 @@
             ],
             "c/tMS_Dashboard_TodoList": [
                 "tMS_Dashboard_TodoList/tMS_Dashboard_TodoList.js"
+            ],
+            "c/tMS_Service": [
+                "tMS_Service/tMS_Service.js"
+            ],
+            "c/tMS_NewTicket": [
+                "tMS_NewTicket/tMS_NewTicket.js"
+            ],
+            "c/TMS_NewTicket": [
+                "TMS_NewTicket/TMS_NewTicket.js"
             ]
         },
         "experimentalDecorators": true

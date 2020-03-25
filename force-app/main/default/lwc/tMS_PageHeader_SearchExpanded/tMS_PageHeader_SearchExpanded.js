@@ -6,5 +6,5 @@ export default class TMS_PageHeader_SearchExpanded extends LightningElement {
         console.log('on text change '+event.target.value);
     }
 
-   
+    
 }

@@ -39,6 +39,7 @@
         <members>tMS_PageHeader_Setting</members>
         <members>tMS_ProfilePage</members>
         <members>tMS_ProfilePage_Details</members>
+        <members>tMS_Service</members>
         <members>tMS_SideBar</members>
         <members>tMS_TicketList</members>
         <members>tMS_TicketPage</members>

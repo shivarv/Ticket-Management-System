@@ -31,6 +31,6 @@
 <c:tMS_ContentPage_TicketList></c:tMS_ContentPage_TicketList>
 
 -->
-<c:tMS_ContentPage_TicketList></c:tMS_ContentPage_TicketList>
+<c:tMS_NewTicket> </c:tMS_NewTicket>
 
 </aura:application>
