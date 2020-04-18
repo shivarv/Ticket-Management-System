@@ -8,6 +8,7 @@ public class IServiceController {
         try {
             className = input.className;
             classTypeInst = Type.forName(className);
+            service = (IService) classTypeInst.newInstance();
             if(service != null) {
                 service.execute(input, output);
             }

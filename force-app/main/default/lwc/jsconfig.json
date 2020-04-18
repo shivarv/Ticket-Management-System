@@ -2,11 +2,53 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
+            "c/tMS_CompanyList": [
+                "tMS_CompanyList/tMS_CompanyList.js"
+            ],
             "c/tMS_ComponentFC": [
                 "tMS_ComponentFC/tMS_ComponentFC.js"
             ],
+            "c/tMS_Contact": [
+                "tMS_Contact/tMS_Contact.js"
+            ],
+            "c/tMS_ContactList": [
+                "tMS_ContactList/tMS_ContactList.js"
+            ],
             "c/tMS_ContentPage": [
                 "tMS_ContentPage/tMS_ContentPage.js"
+            ],
+            "c/tMS_ContentPage_Advanced_Search": [
+                "tMS_ContentPage_Advanced_Search/tMS_ContentPage_Advanced_Search.js"
+            ],
+            "c/tMS_ContentPage_Ticket": [
+                "tMS_ContentPage_Ticket/tMS_ContentPage_Ticket.js"
+            ],
+            "c/tMS_ContentPage_TicketHeader": [
+                "tMS_ContentPage_TicketHeader/tMS_ContentPage_TicketHeader.js"
+            ],
+            "c/tMS_ContentPage_TicketList": [
+                "tMS_ContentPage_TicketList/tMS_ContentPage_TicketList.js"
+            ],
+            "c/tMS_ContentPage_UserSearch": [
+                "tMS_ContentPage_UserSearch/tMS_ContentPage_UserSearch.js"
+            ],
+            "c/tMS_Dashboard": [
+                "tMS_Dashboard/tMS_Dashboard.js"
+            ],
+            "c/tMS_Dashboard_Chart": [
+                "tMS_Dashboard_Chart/tMS_Dashboard_Chart.js"
+            ],
+            "c/tMS_Dashboard_Metrics": [
+                "tMS_Dashboard_Metrics/tMS_Dashboard_Metrics.js"
+            ],
+            "c/tMS_Dashboard_TodoList": [
+                "tMS_Dashboard_TodoList/tMS_Dashboard_TodoList.js"
+            ],
+            "c/tMS_Dashboard_Unresolved_Ticket": [
+                "tMS_Dashboard_Unresolved_Ticket/tMS_Dashboard_Unresolved_Ticket.js"
+            ],
+            "c/tMS_GenericList": [
+                "tMS_GenericList/tMS_GenericList.js"
             ],
             "c/tMS_HeaderNotification": [
                 "tMS_HeaderNotification/tMS_HeaderNotification.js"
@@ -23,8 +65,8 @@
             "c/tMS_ListOfMenus": [
                 "tMS_ListOfMenus/tMS_ListOfMenus.js"
             ],
-            "c/tMS_PageHeader_Setting": [
-                "tMS_PageHeader_Setting/tMS_PageHeader_Setting.js"
+            "c/tMS_NewTicket": [
+                "tMS_NewTicket/tMS_NewTicket.js"
             ],
             "c/tMS_PageHeader": [
                 "tMS_PageHeader/tMS_PageHeader.js"
@@ -32,17 +74,23 @@
             "c/tMS_PageHeader_Notification": [
                 "tMS_PageHeader_Notification/tMS_PageHeader_Notification.js"
             ],
-            "c/tMS_ProfilePage_Details": [
-                "tMS_ProfilePage_Details/tMS_ProfilePage_Details.js"
-            ],
             "c/tMS_PageHeader_Search": [
                 "tMS_PageHeader_Search/tMS_PageHeader_Search.js"
             ],
             "c/tMS_PageHeader_SearchExpanded": [
                 "tMS_PageHeader_SearchExpanded/tMS_PageHeader_SearchExpanded.js"
             ],
+            "c/tMS_PageHeader_Setting": [
+                "tMS_PageHeader_Setting/tMS_PageHeader_Setting.js"
+            ],
             "c/tMS_ProfilePage": [
                 "tMS_ProfilePage/tMS_ProfilePage.js"
+            ],
+            "c/tMS_ProfilePage_Details": [
+                "tMS_ProfilePage_Details/tMS_ProfilePage_Details.js"
+            ],
+            "c/tMS_Service": [
+                "tMS_Service/tMS_Service.js"
             ],
             "c/tMS_SideBar": [
                 "tMS_SideBar/tMS_SideBar.js"
@@ -55,57 +103,6 @@
             ],
             "c/tMS_UserHeaderDisplay": [
                 "tMS_UserHeaderDisplay/tMS_UserHeaderDisplay.js"
-            ],
-            "c/tMS_ContentPage_Ticket": [
-                "tMS_ContentPage_Ticket/tMS_ContentPage_Ticket.js"
-            ],
-            "c/tMS_ContentPage_TicketHeader": [
-                "tMS_ContentPage_TicketHeader/tMS_ContentPage_TicketHeader.js"
-            ],
-            "c/tMS_ContentPage_TicketList": [
-                "tMS_ContentPage_TicketList/tMS_ContentPage_TicketList.js"
-            ],
-            "c/tMS_ContentPage_UserSearch": [
-                "tMS_ContentPage_UserSearch/tMS_ContentPage_UserSearch.js"
-            ],
-            "c/tMS_ContentPage_Advanced_Search": [
-                "tMS_ContentPage_Advanced_Search/tMS_ContentPage_Advanced_Search.js"
-            ],
-            "c/tMS_ContactList": [
-                "tMS_ContactList/tMS_ContactList.js"
-            ],
-            "c/tMS_Contact": [
-                "tMS_Contact/tMS_Contact.js"
-            ],
-            "c/tMS_CompanyList": [
-                "tMS_CompanyList/tMS_CompanyList.js"
-            ],
-            "c/tMS_GenericList": [
-                "tMS_GenericList/tMS_GenericList.js"
-            ],
-            "c/tMS_Dashboard": [
-                "tMS_Dashboard/tMS_Dashboard.js"
-            ],
-            "c/tMS_Dashboard_Chart": [
-                "tMS_Dashboard_Chart/tMS_Dashboard_Chart.js"
-            ],
-            "c/tMS_Dashboard_Metrics": [
-                "tMS_Dashboard_Metrics/tMS_Dashboard_Metrics.js"
-            ],
-            "c/tMS_Dashboard_Unresolved_Ticket": [
-                "tMS_Dashboard_Unresolved_Ticket/tMS_Dashboard_Unresolved_Ticket.js"
-            ],
-            "c/tMS_Dashboard_TodoList": [
-                "tMS_Dashboard_TodoList/tMS_Dashboard_TodoList.js"
-            ],
-            "c/tMS_Service": [
-                "tMS_Service/tMS_Service.js"
-            ],
-            "c/tMS_NewTicket": [
-                "tMS_NewTicket/tMS_NewTicket.js"
-            ],
-            "c/TMS_NewTicket": [
-                "TMS_NewTicket/TMS_NewTicket.js"
             ]
         },
         "experimentalDecorators": true
