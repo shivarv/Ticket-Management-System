@@ -29,8 +29,9 @@
 <c:tMS_ProfilePage></c:tMS_ProfilePage>
 <c:tMS_HomePage></c:tMS_HomePage>
 <c:tMS_ContentPage_TicketList></c:tMS_ContentPage_TicketList>
+<c:tMS_NewTicket> </c:tMS_NewTicket>
 
 -->
-<c:tMS_NewTicket> </c:tMS_NewTicket>
+<c:tMS_ContentPage_TicketList></c:tMS_ContentPage_TicketList>
 
 </aura:application>

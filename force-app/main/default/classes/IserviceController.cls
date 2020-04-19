@@ -1,8 +1,9 @@
 public class IServiceController {
     @AuraEnabled(cacheable = true)
-    public static String process(ProcessRequestInput input) {
+    public static String process(String inputData) {
         String className;
         Type classTypeInst;
+        ProcessRequestInput input = (ProcessRequestInput) JSON.deserialize(inputData, ProcessRequestInput.class);
         ProcessRequestOutput output = new ProcessRequestOutput();
         IService service;
         try {

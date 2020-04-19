@@ -1,4 +1,5 @@
 import { LightningElement } from 'lwc';
+import {callApexMethod} from 'c/tMS_Service';
 
 export default class TMS_ContentPage_TicketList extends LightningElement {
   
@@ -6,6 +7,12 @@ export default class TMS_ContentPage_TicketList extends LightningElement {
     constructor() {
         super();
         this.ticketList = [];
+        callApexMethod('TMS_GetTickets', {} , function() {
+            alert('callback success');
+        }
+        
+        );
+        
         this.ticketList.push({id : 1, contactName: 'Raj', subject: 'Connecting issue in laptop',
             currentTicketUpdate : 'closed on time . resolution on time',
             ticketStatus: 'Open',
@@ -16,7 +23,7 @@ export default class TMS_ContentPage_TicketList extends LightningElement {
             currentTicketUpdate: 'Agent Responded .  Overdue by 8 days',
             ticketStatus: 'Open',
             ticketPriotity: 'Medium'
-        });
+        }); 
     }
 
 }

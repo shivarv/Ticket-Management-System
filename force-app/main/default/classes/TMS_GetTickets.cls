@@ -7,7 +7,7 @@ public with sharing class TMS_GetTickets implements IService {
                     FROM Case LIMIT 50000
         ];
 
-        output.outputData =  JSON.serialize(output);
+        output.outputData =  JSON.serialize(allCases);
     }
 
 }
